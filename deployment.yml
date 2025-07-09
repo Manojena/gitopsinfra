@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: myntra
-          image: prashant6749/myntra:latest  # Will be updated by GitHub Actions or Argo CD Image Updater
+          image: 234299494388.dkr.ecr.ap-south-1.amazonaws.com/b11:f65f4efcf12be16fdeec0903fd367d2554b31296
           ports:
             - containerPort: 3000
